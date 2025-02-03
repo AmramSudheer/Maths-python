@@ -1,0 +1,6 @@
+class k3:
+    
+    def ret(s):
+        for i in s:
+            return s[::-1]
+    print(ret(["sdfrfsrd","tfshgfshgf","ewrwrwr"]))
