@@ -1,0 +1,4 @@
+class Kl:
+    def recursive(df):
+        return df[: : -1]
+    print(recursive("sudheer"))
