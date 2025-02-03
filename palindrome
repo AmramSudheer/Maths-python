@@ -1,0 +1,7 @@
+class P:
+    def palind(q):
+        q = input("enter the palind: ")
+        if q == q[::-1]:
+            return "this is palindrome"
+        return "this is not palindrome"
+    print(palind(" "))
