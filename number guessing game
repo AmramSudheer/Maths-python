@@ -1,0 +1,19 @@
+import random
+while True:
+    print ("welcome to Number Gusessing game")
+    user = int(input(("enter your guessing number 1 to 10: ")))
+    if user == random.randint(1,10):
+        print("yo are correct")
+    else:
+        print("you are wrong")
+
+
+    choice = input("enter S to play again N for exit").upper()
+    if choice == "N":
+        print("thank you: ")
+        break
+    elif choice == "S":
+        continue
+    else:
+        print("you entered wrong choice: ")
+        break
